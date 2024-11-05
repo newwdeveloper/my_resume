@@ -1,0 +1,176 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  padding: 25px;
+  align-items: stretch;
+}
+.left-section {
+  flex: 0.5;
+}
+.img-profile {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+.img-profile img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+}
+.profile-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  padding: 10px;
+}
+.profile-container h2 {
+  margin-bottom: 15px;
+}
+.profile-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  gap: 20px; /* Optional: space between GitHub and LinkedIn divs */
+}
+
+.github,
+.linkdin {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center;
+  align-items: center;
+  font-size: 0.5rem;
+  cursor: pointer;
+  gap: 10px; /* Adds spacing between logo and text */
+}
+
+.github img,
+.linkdin img {
+  width: 40px; /* Ensure images are of consistent size */
+  height: 40px;
+}
+
+.description {
+  flex: 1;
+}
+
+.contact {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.contact h1 {
+  font-size: 1.8rem;
+}
+.box {
+  padding: 25px;
+}
+.box h2 {
+  font-weight: lighter;
+}
+.skills {
+  border: 1px solid black;
+  padding: 10px;
+}
+.skilllist {
+  padding: 25px;
+}
+.skilllist > ul li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.certificate {
+  padding: 10px;
+  border: 1px solid black;
+}
+.certificatelist {
+  padding: 25px;
+}
+.description {
+  padding: 10px;
+  border: 1px solid black;
+}
+.objective {
+  border: 1px solid black;
+}
+.objective h1 {
+  padding: 5px;
+}
+.objective p {
+  padding: 15px;
+}
+.head {
+  border: 1px solid black;
+}
+.first {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between; /* Ensures items are spread out across */
+  padding: 25px;
+}
+.head h1 {
+  padding: 5px;
+}
+
+.company {
+  flex: 1; /* Makes the company section take up available space */
+}
+
+.symbol {
+  margin-right: 10px; /* Adds spacing around the symbol */
+}
+
+.years {
+  text-align: right;
+  min-width: 100px; /* Ensures years section is consistent in width */
+}
+
+.years h2 {
+  font-size: 1rem;
+}
+
+.project {
+  border: 1px solid black;
+}
+#np {
+  padding: 5px;
+}
+
+.project-info {
+  display: flex;
+  gap: 10px;
+  padding: 25px;
+}
+
+.projectList h2 {
+  color: blue;
+}
+.education {
+  border: 1px solid black;
+}
+.education h2 {
+  padding: 5px;
+}
+
+.education-details {
+  display: flex;
+  gap: 10px;
+  padding: 25px;
+}
